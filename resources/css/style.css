@@ -1,0 +1,480 @@
+/*Stuff that applies to the entire document
+or for others also in the south this applies to "errything"*/
+html {
+  font-family: Helvetica, sans-serif;
+  color: #4A4A4A;
+}
+
+body {
+  width: 1025px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #4A90E2;
+}
+
+p {
+  color: #767676;
+}
+
+.container {
+    max-width: 1025px;
+    margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+h2 {
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.button {
+  background: #4A4A4A;
+  display: block;
+  padding: 18px;
+  color: white;
+  width: 285px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.button a, .button a:visited {
+  color: white;
+}
+/*end of "errything" css*/
+
+/*header section */
+.logo, .logo a, .logo  img {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.logo img {
+  padding-left: 24px;
+}
+
+.logotextleft, .logotextright{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logotextleft {
+    color: #4A4A4A;
+}
+
+.logotextright {
+  color: #9B9B9B;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.truncated-menu {
+  display: none;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.menu {
+  padding-right: 24px;
+}
+/*end header section*/
+
+/*learning content*/
+.learning {
+display: flex;
+background: #D8D8D8;
+padding: 24px 32px;
+padding-right: 0;
+}
+
+.learning img {
+  width: 60%;
+  max-width: 590px;
+  height: 100%;
+}
+
+.learningright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+  max-width: 285px;
+}
+
+.learningright h1, .learningright p {
+  padding-bottom: 40px;
+}
+
+.learningright p {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+/*end learning content*/
+
+/*practice content*/
+.practice {
+  display: flex;
+  padding: 24px 32px;
+  padding-right: 0;
+}
+
+.practiceleft {
+  padding-right: 24px;
+  max-width: 60%;
+}
+
+.practice img {
+  max-width: 100%;
+  padding-bottom: 32px;
+}
+
+.practiceleft h1 {
+  padding-bottom: 24px;
+}
+
+.author {
+  padding-top: 32px;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.practiceright {
+  display: flex;
+  flex-direction: column;
+  max-width: 423px;
+  width: 100%
+}
+
+.mobileorientationimage img, .mobilecampusimage img, .mobilelectureimage img {
+  display: none;
+}
+
+.practiceright img {
+  width: 35%;
+  height: 100%;
+  padding: 16px;
+}
+
+.practiceright h2, .practiceright p {
+  padding-bottom: 8px;
+}
+
+.practiceright p {
+  font-size: .8em;
+}
+
+.orientation, .campus, .lecture {
+  display: flex;
+  border: 1px solid #D8D8D8;
+}
+
+.orientationright, .campusright, .lectureright {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lecture {
+  background: #D8D8D8;
+}
+/* end practice content*/
+
+/*courses content*/
+.courses {
+  background: #D8D8D8;
+  text-align: center;
+}
+
+.courses h1 {
+  padding:32px 0;
+}
+
+.coursescontainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  padding-bottom: 32px;
+}
+
+.coursescontainer h2 {
+  padding: 16px;
+}
+
+.coursescontainer p {
+  padding: 8px 16px;
+}
+
+.courses img {
+  max-height: 135px;
+  align-items: flex-start;
+}
+
+.engineering, .art, .design, .data, .business, .marketing {
+  display: flex;
+  vertical-align: top;
+  flex-direction: column;
+  text-align: left;
+  max-width: 266px;
+  height: 100%;
+  margin: 16px 32px;
+  background: white;
+  height: 282px;
+}
+/*end courses content*/
+
+/*thesis content*/
+.thesis {
+  text-align: center;
+}
+
+.thesiscontainer {
+  display: flex;
+  padding-left: 24px;
+  align-items: flex-start;
+}
+
+.thesis h1 {
+  padding:32px 0;
+}
+
+.thesisleft h2 {
+  padding: 24px 0;
+}
+
+.thesisleft {
+  width: 60%;
+  padding-bottom: 32px;
+  margin-right: 16px;
+}
+
+.thesisleft p {
+  text-align: left;
+}
+
+.thesisright {
+  display: flex;
+  flex-direction: column;
+  width: 423px;
+  padding-left: 16px;
+}
+
+.thesisright h2 {
+  padding-bottom: 32px;
+}
+
+.thesisright img {
+  padding: 16px;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 136px;
+}
+
+.thesiseright p {
+  font-size: .8em;
+}
+
+.fisma {
+  background: #D8D8D8;
+}
+.fisma, .nowandthen {
+  display: flex;
+  height: 168px;
+  align-items: center;
+}
+
+.fismaleft, .nowandthenleft {
+  min-width: 136px;
+}
+
+.fismaright, .nowandthenright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 54%;
+}
+/*end thesis content*/
+
+/*footer content*/
+footer {
+  border-top: 1px solid #D8D8D8;
+  align-items: center;
+  min-height: 75px;
+}
+
+.copyright {
+  float: left;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+.copyright p {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+}
+
+footer a {
+  float: right;
+  color: #767676;
+  padding-top: 16px;
+  padding-right: 16px;
+  display: inline-block;
+}
+/*end footer content*/
+
+/*mobile content*/
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 64px;
+  }
+
+  header ul li {
+    margin: 0 auto;
+  }
+
+  .menu, .logo {
+    display: none;
+  }
+
+  .container {
+      max-width: 100%;
+      margin: auto;
+  }
+
+  .truncated-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;;
+
+  }
+
+  .learning {
+    flex-direction: column;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .learning img {
+    width: 100%;
+    padding-bottom: 32px;
+    height: 180px;
+  }
+
+  .learningright {
+    padding-left: 0;
+  }
+
+  .button {
+    margin-bottom: 32px;
+  }
+
+  .practice {
+    padding: 16px;
+  }
+
+  .practiceleft {
+    display: none;
+  }
+
+  .orientation, .campus, .lecture {
+    border: none;
+    flex-direction: column;
+    background: none;
+  }
+
+  .orientation img, .campus img, .lecture img {
+    display: none;
+  }
+
+  .mobileorientationimage img, .mobilecampusimage img, .mobilelectureimage img {
+    display: flex;
+    width: 100%;
+  }
+
+  .orientationright, .campusright, .lectureright {
+    padding-left: 32px;
+  }
+
+  .courses {
+    background: white;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .coursescontainer img, .coursescontainer p {
+    display: none;
+  }
+
+  .engineering, .art, .design, .data, .business, .marketing {
+    background: #d8d8d8;
+    height: auto;
+    padding: 16px 0;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    left: 16px;
+    margin: 8px 0;
+  }
+
+  .coursescontainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .thesisright, .thesisleft p, .thesisleft h2  {
+    display: none;
+  }
+
+  .thesisleft {
+    margin-right: 0;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+
+  footer {
+    border-top: none;
+  }
+
+  footer a {
+    display: none;
+  }
+
+  .copyright {
+    float: left;
+    padding-left: 0;
+    padding-top: 0;
+    padding: 16px 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+}
